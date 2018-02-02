@@ -3,6 +3,56 @@ html {
   font-size: 14px;
 }
 
+h2,
+h3,
+li,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  margin-top: 2.8rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+button:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.7;
+  transition:
+    transform 0.5s,
+    opacity 0.5s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+
 /* Navigation Styles */
 nav li {
   font-family: "Open Sans", sans-serif;
@@ -24,4 +74,52 @@ nav li {
 
 .jumbotron .container-fluid {
   margin: 11.85rem auto;
+  max-width: 51.3rem;
+}
+
+.jumbotron h1 {
+  font-family: Monoton, monospace;
+  font-size: 7.1rem;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+@media only screen and (max-width: 650px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+}
+
+/* Featured Project Styles */
+.featured-project h2 {
+  margin-bottom: 20px;
+}
+
+.featured-project li {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.product-categories {
+  color: #399bd1;
+}
+
+/* Project Styles */
+.projects {
+  margin-bottom: 5.85rem;
+}
+
+/* Having Trouble Styles */
+.having-trouble {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+}
+
+.having-trouble h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
 }
