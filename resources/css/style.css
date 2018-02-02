@@ -1,0 +1,27 @@
+/* Global Styles */
+html {
+  font-size: 14px;
+}
+
+/* Navigation Styles */
+nav li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  background-image: url('../images/jumbotron-bike.jpg');
+  color: white;
+}
+
+.jumbotron .container-fluid {
+  margin: 11.85rem auto;
+}
