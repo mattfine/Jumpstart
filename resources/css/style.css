@@ -68,13 +68,30 @@ nav li {
 
 /* Jumbotron Styles */
 .jumbotron {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jumbotron-bike {
   background-image: url('../images/jumbotron-bike.jpg');
-  color: white;
+}
+
+.jumbotron-beer {
+  background-image: url('../images/jumbotron-beer.jpg');
+}
+
+.jumbotron-flowers {
+  background-image: url('../images/jumbotron-flowers.jpg');
+}
+
+.jumbotron-duffel {
+  background-image: url('../images/jumbotron-duffel.jpg');
 }
 
 .jumbotron .container-fluid {
   margin: 11.85rem auto;
-  max-width: 51.3rem;
+  color: white;
 }
 
 .jumbotron h1 {
@@ -87,10 +104,15 @@ nav li {
     1px 1px 0 #000;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   .jumbotron h1 {
     font-size: 5.7rem;
   }
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
 }
 
 /* Featured Project Styles */
